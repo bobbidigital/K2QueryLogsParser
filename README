@@ -1,0 +1,12 @@
+Purpose:
+
+THIS IS NOT A FULL FRAMEWORK. I originally wrote this for a task at work. It's very specific to that task so you may
+find certain functionality missing. The code should be easy enough to understand though, so that if you need to modify
+or add to it, you should be able to.
+
+The code assumes a database exists. I've only written a store for Microsoft SQL Server. The mssql_database_create.sql
+script will create the necessary database tables for you. The schema is fairly basic.
+
+Requirements:
+
+This leverages lxml as well as the pymssql library for database connectivity
